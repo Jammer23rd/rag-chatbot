@@ -83,17 +83,17 @@ API_TIMEOUT=30
 
 ## MAINTENANCE ⚠️  
 
-# Warning: This will permanently delete:
+### Warning: This will permanently delete:
 
-    All documents in documents/
-    Vector database in db/
-    Chat logs in logs/
-    Any processing artifacts### System Reset
+All documents in documents/
+Vector database in db/
+Chat logs in logs/
+Any processing artifacts### System Reset
 
-# Run the reset
+### Run the reset
 
-chmod +x reset_system.sh
-./reset_system.sh
+    chmod +x reset_system.sh
+    ./reset_system.sh
 
 ## SECURITY NOTE
 
