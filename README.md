@@ -5,18 +5,27 @@ A Retrieval-Augmented Generation chatbot that answers questions based on documen
 
 ## FEATURES
 
--   Processes PDF, TXT, HTML, and DOCX documents
-    
--   Automatic domain expertise detection
-    
--   Conversation history logging
-    
--   Persistent vector database
-    
--   CPU/GPU compatibility
-    
--   Configurable through environment variables
-    
+### Document Processing
+
+-    Ingests 20+ file formats (PDFs, code, Office docs, etc.)
+
+-    Splits content using recursive text splitting
+
+-    Uses HuggingFace embeddings (default: all-MiniLM-L6-v2)
+
+-    Stores vectors in Chroma DB
+
+### AI Chat Interface
+
+-   Retrieves relevant document chunks
+
+-   Uses OpenAI/Chat models for responses
+
+-   Maintains conversation history
+
+-   Features automatic domain analysis
+
+-   Includes interaction logging
 
 ## INSTALLATION
 
