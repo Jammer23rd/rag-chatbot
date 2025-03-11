@@ -59,15 +59,7 @@ A Retrieval-Augmented Generation chatbot that answers questions based on documen
 
 ## CONFIGURATION
 
-Create .env file with these variables:
-
-OPENAI_API_BASE="https://api.openai_compatible.com"  
-OPENAI_API_KEY="your-api-key"  
-MODEL_NAME="model_name"  
-EMBEDDING_MODEL="all-MiniLM-L6-v2" [info](https://docs.trychroma.com/docs/embeddings/embedding-functions)  
-CHROMA_PERSIST_DIR="db"  
-HISTORY_LENGTH=5  
-API_TIMEOUT=30
+Fill .env file with the required variables.
 
 ## CUSTOMIZATION
 
