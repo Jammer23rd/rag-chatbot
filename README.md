@@ -86,10 +86,10 @@ Fill .env file with the required variables.
 
 ### Warning: This will permanently delete:
 
-All documents in documents/
-Vector database in db/
-Chat logs in logs/
-Any processing artifacts### System Reset
+#### All documents in documents
+#### Vector database in db
+#### Chat logs in logs
+#### Any processing artifacts
 
 ### Run the reset
 
